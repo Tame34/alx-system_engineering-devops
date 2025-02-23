@@ -1,0 +1,13 @@
+#!/bin/bash
+mkdir /tmp/my_first_directory 
+
+
+if [ -d "/tmp/my_first_directory" ];
+then
+
+echo "Directory exists!"
+
+else
+	mkdir /tmp/my_first_directory
+	echo "Directory successfully created"
+fi
