@@ -1,0 +1,22 @@
+#!/bin/bash
+
+if [ -f /tmp/betty ];
+then
+	echo "File doesn't exist"
+	touch betty
+
+fi
+
+mv /tmp/betty /tmp/my_first_directory
+
+if [ -f /tmp/my_first_directory ];
+
+then
+
+echo "File exists"
+
+else
+
+echo "File doesn't exist"
+
+fi
