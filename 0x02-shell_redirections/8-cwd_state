@@ -1,0 +1,16 @@
+#!/bin/bash
+ls -al >> ls_cwd_content
+total 25
+drwxr-xr-x 1 user 197121   0 Feb 26 21:15 ./
+drwxr-xr-x 1 user 197121   0 Feb 26 20:25 ../
+-rwxr-xr-x 1 user 197121  34 Feb 26 20:31 0-hello_world*
+-rwxr-xr-x 1 user 197121  24 Feb 26 20:32 1-confused_smiley*
+-rwxr-xr-x 1 user 197121  30 Feb 26 20:33 2-hellofile*
+-rwxr-xr-x 1 user 197121  41 Feb 26 20:38 3-twofiles*
+-rwxr-xr-x 1 user 197121  35 Feb 26 20:39 4-lastlines*
+-rwxr-xr-x 1 user 197121  35 Feb 26 20:40 5-firstlines*
+-rwxr-xr-x 1 user 197121  40 Feb 26 21:04 6-third_line*
+-rwxr-xr-x 1 user 197121  59 Feb 26 21:13 7-file*
+-rwxr-xr-x 1 user 197121  37 Feb 26 21:15 8-cwd_state*
+-rw-r--r-- 1 user 197121 801 Feb 26 21:03 iacta
+-rw-r--r-- 1 user 197121 693 Feb 26 21:15 ls_cwd_content
